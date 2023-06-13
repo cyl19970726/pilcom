@@ -1,0 +1,8 @@
+namespace TwoByteAdd(4);
+
+pol constant RESET;
+pol commit a, b;
+pol commit prevCarry, carry, add;
+
+a + b * (1-RESET)*prevCarry = carry*2**8 +add;
+prevCarry'  = carry;

@@ -1,0 +1,10 @@
+namespace CylicExample(4);
+
+pol commit a,b;
+pol constant SEL;
+
+pol carry = (a+1)*a;
+
+carry * (a-1) = 0;
+b' = SEL* (a+b) + (1-SEL);
+

@@ -1,0 +1,8 @@
+namespace AND(1024);
+pol constant in1, in2, xor;
+
+namespace Main(1024);
+pol commit a, b, c; 
+
+{a,b,c} in {AND.in1,AND.in2,AND.xor};
+
